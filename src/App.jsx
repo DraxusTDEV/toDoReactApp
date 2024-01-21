@@ -1,7 +1,12 @@
 const App = () => {
-  return(
-    <h1 className="text-center">Hola App</h1>
-  )
-}
+    return (
+        <div className="bg-[url('src/assets/images/bg-mobile-light.jpg')] bg-no-repeat bg-cover">
+            <header>
+                <h1 className="uppercase">Todo</h1>
+                <button>Luna</button>
+            </header>
+        </div>
+    );
+};
 
 export default App;
