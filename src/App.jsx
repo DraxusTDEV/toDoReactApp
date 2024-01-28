@@ -1,3 +1,5 @@
+import CrossIcon from "./components/icons/CrossIcon";
+
 const App = () => {
     return (
         <div className="background min-h-screen  bg-gray-300 bg-contain bg-no-repeat">
@@ -20,30 +22,51 @@ const App = () => {
 
             <main className="container mx-auto mt-8 px-4">
                 <div className="rounded-md bg-white px-4">
-                    <article>
-                        <button>Circle</button>
-                        <p>Complete online Javascript course</p>
-                        <button>X</button>
+                    <article className="flex gap-4 border-b-2 border-b-gray-400 py-4">
+                        <button className="inline-block h-5 w-5 flex-none rounded-full border-2"></button>
+                        <p className="grow text-gray-700">
+                            Complete online Javascript course
+                        </p>
+                        <button className="flex-none">
+                            <CrossIcon />
+                        </button>
                     </article>
-                    <article>
-                        <button>Circle</button>
-                        <p>Complete online Javascript course</p>
-                        <button>X</button>
+
+                    <article className="flex gap-4 border-b-2 border-b-gray-400 py-4">
+                        <button className="inline-block h-5 w-5 flex-none rounded-full border-2"></button>
+                        <p className="grow text-gray-700">
+                            Complete online Javascript course
+                        </p>
+                        <button className="flex-none">
+                            <CrossIcon />
+                        </button>
                     </article>
-                    <article>
-                        <button>Circle</button>
-                        <p>Complete online Javascript course</p>
-                        <button>X</button>
+                    <article className="flex gap-4 border-b-2 border-b-gray-400 py-4">
+                        <button className="inline-block h-5 w-5 flex-none rounded-full border-2"></button>
+                        <p className="grow text-gray-700">
+                            Complete online Javascript course
+                        </p>
+                        <button className="flex-none">
+                            <CrossIcon />
+                        </button>
                     </article>
-                    <article>
-                        <button>Circle</button>
-                        <p>Complete online Javascript course</p>
-                        <button>X</button>
+                    <article className="flex gap-4 border-b-2 border-b-gray-400 py-4">
+                        <button className="inline-block h-5 w-5 flex-none rounded-full border-2"></button>
+                        <p className="grow text-gray-700">
+                            Complete online Javascript course
+                        </p>
+                        <button className="flex-none">
+                            <CrossIcon />
+                        </button>
                     </article>
-                    <article>
-                        <button>Circle</button>
-                        <p>Complete online Javascript course</p>
-                        <button>X</button>
+                    <article className="flex gap-4 border-b-2 border-b-gray-400 py-4">
+                        <button className="inline-block h-5 w-5 flex-none rounded-full border-2"></button>
+                        <p className="grow text-gray-700">
+                            Complete online Javascript course
+                        </p>
+                        <button className="flex-none">
+                            <CrossIcon />
+                        </button>
                     </article>
                     <section>
                         <span>5 items left</span>
